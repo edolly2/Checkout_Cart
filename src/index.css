@@ -136,3 +136,16 @@ footer {
 .button.primary {
   background-color: hsl(244, 100%, 9%);
 }
+
+  /* FILTER */
+.filter {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 1rem;
+  border-bottom: 0.1rem hsl(0, 0%, 75%) solid;
+}
+
+.filter div {
+  flex: 1;
+}
